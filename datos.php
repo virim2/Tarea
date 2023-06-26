@@ -7,6 +7,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $asunto = $_POST["txtAsunto"];
   $mensaje = $_POST["txtMensaje"];
 
+  /*$nombre = $_GET["txtNombre"];
+  $email = $_GET["txtEmail"];
+  $telefono = $_GET["txtTelefono"];
+  $sitio_web = $_GET["txtSitioWeb"];
+  $asunto = $_GET["txtAsunto"];
+  $mensaje = $_GET["txtMensaje"];*/
+
   echo "Los datos se han guardado correctamente:<br>";
   echo "Nombre: " . $nombre . "<br>";
   echo "Email: " . $email . "<br>";
