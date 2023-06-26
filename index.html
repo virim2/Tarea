@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de contacto</h1>
+        <p>Escríbenos y en breve nos pondremos en contacto contigo</p>
+        <form action="datos.php" method="POST">
+            <label for="txtNombre">Nombre</label>
+            <input type="text" name="txtNombre" id="txtNombre" placeholder="Escribe tu nombre">
+            <br/><br/> 
+            <label for="txtEmail">Email</label>
+            <input type="text" name="txtEmail" id="txtEmail" placeholder="Escribe tu Email">
+            <br/><br>
+            <label for="txtTelefono">Teléfono</label>
+            <input type="text" name="txtTelefono" id="txtTelefono" placeholder="Escribe tu teléfono">
+            <br/><br>
+            <label for="txtSitioWeb">Sitio Web</label>
+            <input type="text" name="txtSitioWeb" id="txtSitioWeb" placeholder="Escribe la URL de tu web">
+            <br/><br>
+            <label for="txtAsunto">Asunto</label>
+            <input type="text" name="txtAsunto" id="txtAsunto" placeholder="Escribe un asunto">
+            <br/><br>
+            <label for="txtMensaje">Mensaje</label>
+            <textarea type="text" name="txtMensaje" id="txtMensaje" placeholder="Deja aquí tu comentario..."></textarea>
+            <br/><br>
+            <input type="submit" value="Enviar">
+        </form>   
+    </div>
+</body>
+</html>
